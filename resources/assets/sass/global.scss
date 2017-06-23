@@ -1,0 +1,14 @@
+@import 'variables';
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+@import 'node_modules/font-awesome/scss/font-awesome';
+
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+body {
+    /* Without this, the body has excess horizontal scroll when the menu is open */
+	overflow-x: hidden;
+}
